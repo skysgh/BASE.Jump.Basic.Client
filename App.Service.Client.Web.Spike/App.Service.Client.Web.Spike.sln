@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "01.App.Base.Client.Web", "App.Service.Client.Web.Intro\01.App.Base.Client.Web.esproj", "{AD678F2C-6BC1-468A-BABF-96CBFEB801B6}"
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "01.App.Base.Client.Web.Spike", "App.Service.Client.Web.Spike\01.App.Base.Client.Web.Spike.esproj", "{AD678F2C-6BC1-468A-BABF-96CBFEB801B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
