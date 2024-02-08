@@ -9,7 +9,7 @@ export class FetchRest02 {
   public responseData: ExampleAEntity[] = [];
 
   constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string) {
-    http.get<ExampleAEntity[]>(baseUrl + 'api/rest/DevLearn/PresentationLayerExampleAEntity').subscribe(result => {
+    http.get<ExampleAEntity[]>(baseUrl + 'api/rest/DevLearn/v1/PresentationLayerExampleAEntity').subscribe(result => {
       this.responseData = result;
     }, error => console.error(error));
   }

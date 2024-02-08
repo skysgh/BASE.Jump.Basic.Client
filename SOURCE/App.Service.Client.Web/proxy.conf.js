@@ -6,6 +6,10 @@ const PROXY_CONFIG = [
       "/$odata/**",
       "/swagger/**",
       "/api/**",
+      "/docs/**",
+      "/sysinfo/**",
+      "/openAPI/**"
+
     ],
     target: "https://localhost:8201",
     secure: false

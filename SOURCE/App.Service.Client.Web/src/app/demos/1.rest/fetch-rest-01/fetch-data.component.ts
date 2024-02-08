@@ -10,7 +10,7 @@ export class FetchRest01 {
 
 
   constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string) {
-    http.get<ExampleAEntityDto[]>(baseUrl + 'api/rest/toberewritten').subscribe(result => {
+    http.get<ExampleAEntityDto[]>(baseUrl + 'api/rest/host/v1/toberewritten').subscribe(result => {
       this.responseData = result;
     }, error => console.error(error));
   }
